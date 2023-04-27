@@ -1,5 +1,5 @@
 
-namespace: kube-public
+
 configMapGenerator:
 
 - name: tnsname
