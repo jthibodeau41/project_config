@@ -1,0 +1,23 @@
+﻿STEP-CLONE
+
++ '[' false = true ']'
++ '[' false = true ']'
++ '[' false = true ']'
++ CHECKOUT_DIR=/workspace/output/
++ '[' true = true ']'
++ cleandir
++ '[' -d /workspace/output/ ']'
++ rm -rf '/workspace/output//*'
++ rm -rf '/workspace/output//.[!.]*'
++ rm -rf '/workspace/output//..?*'
++ test -z ''
++ test -z ''
++ test -z ''
+
+added text
+
+
+added more text
+
+another line
+

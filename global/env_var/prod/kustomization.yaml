@@ -1,0 +1,9 @@
+configMapGenerator:
+
+- name: environment-prod
+
+  envs:
+  - ./prod-env.txt
+
+generatorOptions:
+ disableNameSuffixHash: true

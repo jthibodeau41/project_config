@@ -1,0 +1,12 @@
+
+namespace: kube-public
+configMapGenerator:
+
+- name: tnsname
+
+  files:
+  - ./tnsnames.ora
+
+
+generatorOptions:
+ disableNameSuffixHash: true

@@ -1,0 +1,9 @@
+configMapGenerator:
+
+- name: environment-test
+
+  envs:
+  - ./test-env.txt
+
+generatorOptions:
+ disableNameSuffixHash: true
