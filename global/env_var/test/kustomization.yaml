@@ -1,6 +1,6 @@
 configMapGenerator:
 
-- name: environment-test
+- name: environment
 
   envs:
   - ./test-env.txt

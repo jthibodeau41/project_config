@@ -1,6 +1,6 @@
 configMapGenerator:
 
-- name: environment-prod
+- name: environment
 
   envs:
   - ./prod-env.txt

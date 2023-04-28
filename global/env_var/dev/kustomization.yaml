@@ -1,6 +1,6 @@
 configMapGenerator:
 
-- name: environment-dev
+- name: environment
 
   envs:
   - ./dev-env.txt
@@ -8,4 +8,3 @@ configMapGenerator:
 generatorOptions:
  disableNameSuffixHash: true
 
-nameSuffix: 
